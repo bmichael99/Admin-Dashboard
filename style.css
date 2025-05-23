@@ -233,7 +233,19 @@ a{
   padding:16px;
   display:grid;
   grid-template-rows: 1fr 3fr 1fr;
+  gap:1rem;
   
+}
+
+.card .card-text{
+  display: -webkit-box;
+  -webkit-line-clamp: 4;            
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5rem;
+  max-height: 6rem;             
+  word-break: break-word;
   
 }
 
